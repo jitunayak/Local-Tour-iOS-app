@@ -24,6 +24,7 @@
 		92493E03242A8EFA00AAB661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92493E06242A8EFA00AAB661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92493E08242A8EFA00AAB661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929AC0D8242BA6DD0032A842 /* My Tour guide.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "My Tour guide.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		92493DF9242A8EF700AAB661 /* My Tour guide */ = {
 			isa = PBXGroup;
 			children = (
+				929AC0D8242BA6DD0032A842 /* My Tour guide.entitlements */,
 				92493DFA242A8EF700AAB661 /* AppDelegate.swift */,
 				92493DFC242A8EF700AAB661 /* SceneDelegate.swift */,
 				92493DFE242A8EF700AAB661 /* ContentView.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "My Tour guide/My Tour guide.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"My Tour guide/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -294,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jitu.My-Tour-guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "My Tour guide/My Tour guide.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"My Tour guide/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -313,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jitu.My-Tour-guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
